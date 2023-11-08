@@ -1,0 +1,48 @@
+.wrapper{
+  background-color: #EAEAEA;
+  padding-bottom: 50px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+.column{
+    display: flex;
+}
+
+.content{
+    color: #4A4A4A;
+    margin-right: 10px;
+}
+
+.icon{
+    margin: 0 20px;
+    width: 30px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:785px){
+    .row{
+        flex-direction: column;
+    }
+
+    .icon{
+        margin: 20px;
+    }
+}
+
+@media only screen and (max-width:420px){
+    .flex{
+       flex-direction: column;
+    }
+
+    .logo{
+        margin-top: 10px;
+        width: 90%;
+    }
+}

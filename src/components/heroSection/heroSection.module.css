@@ -1,0 +1,47 @@
+
+.heroSection{
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat ;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  
+  .title{
+    font-family: var(--playfair);
+    color: #fff;
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  
+  .content{
+    color: #fff;
+    font-size: 1.3rem;
+    width: 50%;
+    line-height: 2.5rem;
+  }
+
+@media only screen and (max-width:1000px){
+  .content{
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width:570px){
+  .heroSection{
+    padding: 20px;
+  }
+
+  .title{
+    font-size: 3rem
+  }
+
+  .content{
+    font-size: 1rem;
+  }
+}
